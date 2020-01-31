@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/robyoder
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://robyoder.com
+  * I am robyoder (https://keybase.io/robyoder) on keybase.
+  * I have a public key with fingerprint EA47 BBDB 9DAC E8FA AB11  7C62 8A87 7635 A4A3 4878
+
+To claim this, I am signing this object:
+
+{
+  "body": {
+    "client": {
+      "name": "keybase.io node.js client",
+      "version": "0.7.3"
+    },
+    "key": {
+      "fingerprint": "ea47bbdb9dace8faab117c628a877635a4a34878",
+      "host": "keybase.io",
+      "key_id": "8A877635A4A34878",
+      "uid": "164559e70c48ba5310935b317cd46a00",
+      "username": "robyoder"
+    },
+    "merkle_root": {
+      "ctime": 1417225209,
+      "hash": "be477982f7b109b1f020617adaca48ec09ef943aad0d08006fcf3161414a01385882584052a3fbb8e382b4241b0d985935ffd060692dae989a154bf7958a3d9c",
+      "seqno": 99684
+    },
+    "service": {
+      "hostname": "robyoder.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1417225390,
+  "expire_in": 157680000,
+  "prev": "c96c2754fa3bc842a03d8b8fd74a348d40e84c52f85caa512e41156746e1efcc",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFdkmtMFFcYhhdBo5SLmNagSCGjxUhhncuZmTNclG1UJG2NFKRijeTMzJlluOzg
+7nLZ4naLsaUgPyCNlYJcRI1iq4YGr6XQWkMC7WrRtha1agQlmFIt1ArSYGdQE+2/
+c3m+93vf853qQF+Tv09leRG7f9/aEp8fhkVTumvJ0VJC1GQXEVdKSHkqtjmNlQ3l
+YyKOyMUuETmwWdUibZqMzTmOyKdMDFGE7Q5Vs+kUaebNDOGOMXCjWFFtVmwvsKuG
+FoER4EVRFgUZSRgqCIkUxUscDRHkeY5hEUAMgDzUJbM1h/OFrsS0ZpYq66fQ8oS3
+AMszvnD6guIAywqYJyUARcQyFCkwrMjoTWTAIZI0QAe2P41k10SXHsVu+M3H9tw8
+nGXXtOnQklM1EApQPE2zNCnojpAjWy8SMeB5AdIKL+rqIqWQNMlRPNIjIQCxRApY
+EQCDkEzKJCRJTpEUhuJ0JYBIioEshDQLAcnSiFFEEWIG0iKgASWSsgBZ3a+iyCRH
+cgItIyxAAVEsEBVeYCFiZEHSIzjwVptGxAkCB4Hb2NqLVAkbto1X+184s6Tl6zUF
+ds2pSVqefpPtdBbEGZmdrgKDLMZiluPIE5EsUbXJ+syeHyqloy++ByOQMQQuKVDt
+OEs1CJbn9KgkafTBRbqmJHASzbNAQYwoQUAjkpGhCBWZnx6xDEgMgcTSCmQlhFiK
+xoCiWI4HHKawIj2XkqJ0o8iqazpUqw05C+2YcFfMWORn8vE3zZo5w/i2Jv85c5/9
+5fHu4KkVXVc6+jbsDupNXDMvsO7r0NgGtzR/rzms2rI5JSgxO67SGtqU3tVQ5m0f
+qT+5qnCoYqGfJanjlb6p8tm3v2/s84Z9ePCzMffZ1vdB27wNaZ7qc6HnzNt+0kYe
+vRR2M3j0t0DbmQH34ksbf301tb531HFJ2u5lviTr32wOv3B0iadpNLGicc+BlB4x
+xUzVnhzLvLbg4ampQ91DXdqK38cdrT/Hl43XqkvP5M6MpWds9G7qd607+iDGVRt1
+L/lQ176HVyczq6wHOlznx/5qkOND7pq2TA7t+Wcw0XeLT2Oxd+hjb1pp8kTIcaq8
+bv/OxncHB3cTqwPWXWd3zf9XCNvbFLv8q4+aPrnN7qg+GHu5u6k9af/xP877tszl
+g+O//eXi0JitzmzdQa26u6lkMmTBnz5t6ZL55YtfBHXeWT2nxoNx1Htpyye9i77p
+PxFWvvl+AoheGXJ4oj/zVvSuY8SNwGM3k6vKPo/mIzZtO+DnmZ1R0zO2IB9PPG4b
++Nua5Jdzra7w7daAtGC8tjvHgiIuvXXWUzt25HTYhdfDL3u0wA8ymgtbXtt577r5
+cs3w0rpl31Va4ycyOu/PibryYEtacUJty7xZ/OLTn56/M7j+yvqtEabO0VPv3Ppx
+ZWRCRrajmm7OeQzdVbzqhG90jtxQFm7r6UxNDR9IPTWsXl1W4VsT0J7hDXi0vbdv
+3+ET/wE=
+=QQy5
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robyoder
