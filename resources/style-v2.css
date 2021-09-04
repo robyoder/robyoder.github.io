@@ -48,13 +48,11 @@ a img {
 /* -------------------------------------------------------------- */
 
 body {
-	/*font-family: "Hypatia Sans Pro", "Adobe Garamond Pro", Baskerville, "Helvetica Neue", "Gill Sans", Optima, "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;*/
-	font-family: "Hypatia Sans Pro", "Gill Sans", Optima, "Adobe Garamond Pro", Baskerville, serif;
+	font-family: Menlo, "Source Code Pro", Monaco, monospace;
 	font-weight: 300;
-	font-size: 1.7em;
+	font-size: 1.3em;
 	background: black;
 	color: white;
-/*	-webkit-font-smoothing: antialiased; */
 	line-height: 1.5;
 }
 
@@ -98,9 +96,6 @@ aside#icons svg:hover path {
 
 #footer p {
 	float: left;
-}
-
-#footer {
 }
 
 ul#icons {
@@ -155,9 +150,6 @@ h1 {
 
 h2 {
 	font-size: 1.6em;
-/*	 margin: 1.5em -5px 0; */
-/*	 padding: 0 5px; */
-/*	 border-bottom: 2px dotted #999; */
 	background: #ddd;
 	margin: 5px -50px 0;
 	padding: 0 50px;
@@ -167,13 +159,6 @@ h2:hover {
 	background: #ccc;
 	cursor: pointer;
 }
-
-/*
-h3 {
-	font-size: 1.1em;
-	text-transform: uppercase;
-}
-*/
 
 p, ul, ol {
 	margin-top: .75em;
@@ -185,14 +170,13 @@ ul, ol {
 }
 
 a {
-	color: #a04c20;
+	color: #508020;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #6a1e00;
+	color: #3D6119;
 	text-decoration: underline;
-	/*border-bottom: dotted 1px #6a1e00;*/
 }
 
 #qrcode {
