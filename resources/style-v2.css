@@ -108,7 +108,7 @@ a img {
 /* -------------------------------------------------------------- */
 
 body {
-	font-family: Menlo, "Source Code Pro", Monaco, monospace;
+	font-family: Recursive, Menlo, "Source Code Pro", Monaco, monospace;
 	font-weight: 300;
 	font-size: 1.3em;
 	background: black;
@@ -125,16 +125,22 @@ body {
 }
 
 #header {
-	height: 146px; /* 128 + 18 overlap */
-	margin-bottom: -18px;
+	height: 154px; /* 128 + 26 overlap */
+	margin-bottom: -26px;
 	z-index: 20;
 	position: relative;
 }
 
-#header svg {
+#header h1 {
 	position: absolute;
-	left: 50px;
+	left: 47px;
 	bottom: 0;
+	font-size: 5rem;
+	letter-spacing: -0.07em;
+}
+
+#header h1 span {
+	color: #999;
 }
 
 aside#icons ul {
