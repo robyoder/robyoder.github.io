@@ -131,6 +131,10 @@ a img {
 	}
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Recursive, Menlo, "Source Code Pro", Monaco, monospace;
 	font-weight: 300;
@@ -143,8 +147,7 @@ body {
 #page {
 	margin: 0 auto;
 	padding: 0 25px;
-	max-width: 650px;
-	min-width: 450px;
+	max-width: 700px;
 	position: relative;
 }
 
@@ -157,7 +160,7 @@ body {
 
 #header h1 {
 	position: absolute;
-	left: 47px;
+	left: 45px;
 	bottom: 0;
 	font-size: 5rem;
 	letter-spacing: -0.07em;
@@ -223,4 +226,29 @@ ul#icons svg path {
 
 ul#icons svg:hover path {
 	fill: var(--link-color);
+}
+
+@media only screen and (max-width: 500px) {
+	#header {
+		height: 30.8vw;
+		margin-bottom: -5.2vw;
+	}
+
+	#header h1 {
+		font-size: 16vw;
+		left: 9vw;
+	}
+
+	#page {
+		padding: 0;
+	}
+
+	#main {
+		padding: 10vw;
+	}
+
+	#footer {
+		padding-left: 10vw;
+		padding-right: 10vw;
+	}
 }
