@@ -107,12 +107,36 @@ a img {
 
 /* -------------------------------------------------------------- */
 
+:root {
+	--page-bg-color: black;
+	--content-bg-color: #202020;
+	--main-color: #dcdcdc;
+	--sec-color: #959595;
+	--rob-color: #dcdcdc;
+	--yoder-color: #959595;
+	--link-color: #d1a080;
+	--link-hover-color: #e3c7b5;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--page-bg-color: #f0f0f0;
+		--content-bg-color: white;
+		--main-color: #505050;
+		--sec-color: #505050;
+		--rob-color: #505050;
+		--yoder-color: #8a8a8a;
+		--link-color: #7f4d29;
+		--link-hover-color: #593c1c;
+	}
+}
+
 body {
 	font-family: Recursive, Menlo, "Source Code Pro", Monaco, monospace;
 	font-weight: 300;
 	font-size: 1.3em;
-	background: black;
-	color: white;
+	background: var(--page-bg-color);
+	color: var(--main-color);
 	line-height: 1.5;
 }
 
@@ -137,27 +161,45 @@ body {
 	bottom: 0;
 	font-size: 5rem;
 	letter-spacing: -0.07em;
+	color: var(--rob-color);
 }
 
 #header h1 span {
-	color: #999;
+	color: var(--yoder-color);
 }
 
-aside#icons ul {
-	float: left;
-	margin-left: -50px;
-	margin-top: 25px !important;
-	width: 50px;
-	padding: 0;
-	list-style-type: none;
+#main {
+	margin: 0;
+	padding: 50px;
+	background: var(--content-bg-color);
+	color: var(--main-color);
+	position: relative;
 }
 
-aside#icons svg path {
-	fill: #999;
+* :first-child {
+	margin-top: 0 !important;
 }
 
-aside#icons svg:hover path {
-	fill: white;
+p {
+	margin-top: 0.75em;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--link-hover-color);
+	text-decoration: underline;
+}
+
+#footer {
+	padding: 15px 50px 50px;
+	height: 35px;
+	font-size: 0.8em;
+	color: var(--sec-color);
+	position: relative;
 }
 
 #footer p {
@@ -165,7 +207,6 @@ aside#icons svg:hover path {
 }
 
 ul#icons {
-	padding: 0 0 0 0;
 	margin: 2px 0 0 8px;
 	list-style-type: none;
 	float: left;
@@ -177,90 +218,9 @@ ul#icons li {
 }
 
 ul#icons svg path {
-	fill: #999;
+	fill: var(--sec-color);
 }
 
 ul#icons svg:hover path {
-	fill: white;
-}
-
-#main {
-	margin: 0;
-	padding: 50px;
-	background: white;
-	color: black;
-	position: relative;
-}
-
-* :first-child {
-	margin-top: 0 !important;
-}
-
-#main > section {
-	margin-top: 0.75em;
-	margin-bottom: 50px;
-}
-
-#main > section:last-child {
-	margin-bottom: 0;
-}
-
-h1,
-h2,
-h3 {
-	margin: 1.5em 0 0 0;
-	padding: 0;
-}
-
-h1 {
-	font-size: 2em;
-}
-
-h2 {
-	font-size: 1.6em;
-	background: #ddd;
-	margin: 5px -50px 0;
-	padding: 0 50px;
-}
-
-h2:hover {
-	background: #ccc;
-	cursor: pointer;
-}
-
-p,
-ul,
-ol {
-	margin-top: 0.75em;
-}
-
-ul,
-ol {
-	padding-left: 1.5em;
-	list-style-type: square;
-}
-
-a {
-	color: #508020;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #3d6119;
-	text-decoration: underline;
-}
-
-#qrcode {
-	float: right;
-	margin: 0 0 20px 20px;
-	max-width: 40%;
-	height: auto;
-}
-
-#footer {
-	padding: 15px 50px 50px;
-	height: 35px;
-	font-size: 0.8em;
-	color: #999;
-	position: relative;
+	fill: var(--link-color);
 }
