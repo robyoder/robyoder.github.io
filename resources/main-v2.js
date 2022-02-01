@@ -5,8 +5,7 @@ for (const el of document.getElementsByClassName("obfuscate")) {
 	if (el.classList.contains("type-e")) {
 		// This is an email address
 		el.setAttribute("href", "mailto:" + text);
-	}
-	else if (el.classList.contains("type-t")) {
+	} else if (el.classList.contains("type-t")) {
 		// This is a phone number
 		el.setAttribute("href", "tel:+1" + text.replace(/\D/g, ""));
 	}
